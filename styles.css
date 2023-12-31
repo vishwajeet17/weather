@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#weather-info {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+canvas {
+    margin-top: 20px;
+}
